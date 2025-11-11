@@ -17,6 +17,28 @@ export default function Index() {
         'Основные стили и направления',
         'Эргономика и антропометрия',
         'Материаловедение'
+      ],
+      lectures: [
+        {
+          title: 'Введение в дизайн мебели',
+          duration: '45 мин',
+          content: 'Обзор профессии дизайнера мебели. Основные задачи и компетенции специалиста. Взаимодействие с производством, маркетингом и продажами. Этапы проектирования от идеи до серийного производства.'
+        },
+        {
+          title: 'История мебельного искусства',
+          duration: '60 мин',
+          content: 'Эволюция мебели от античности до современности. Стили: барокко, рококо, классицизм, модерн, баухаус, скандинавский дизайн. Знаковые дизайнеры: Чарльз Макинтош, Ле Корбюзье, Арне Якобсен, Филипп Старк. Анализ культовых предметов мебели XX-XXI века.'
+        },
+        {
+          title: 'Эргономика и антропометрия',
+          duration: '50 мин',
+          content: 'Антропометрические данные и процентили населения. Эргономические требования к мебели различного назначения: стулья, столы, кровати, системы хранения. ГОСТ и международные стандарты. Зоны досягаемости и углы наклона. Психология восприятия комфорта.'
+        },
+        {
+          title: 'Материаловедение',
+          duration: '55 мин',
+          content: 'Классификация материалов для мебели. Древесина: породы, свойства, области применения. ДСП, МДФ, фанера: технологии производства и характеристики. Современные композиты. Металлы и пластики. Экологические аспекты выбора материалов.'
+        }
       ]
     },
     {
@@ -27,6 +49,28 @@ export default function Index() {
         'CAD-программы для мебели',
         'Конструктивные решения',
         'Разработка чертежей'
+      ],
+      lectures: [
+        {
+          title: 'Основы технического черчения',
+          duration: '60 мин',
+          content: 'ЕСКД: системы проектной документации. Виды, разрезы, сечения. Масштабы и линии чертежа. Нанесение размеров и допусков. Условные обозначения материалов. Деталировка и спецификации. Требования к оформлению документации.'
+        },
+        {
+          title: 'CAD для мебельщиков',
+          duration: '90 мин',
+          content: 'Обзор программ: AutoCAD, SolidWorks, Fusion 360, Базис-Мебельщик. Создание 2D-чертежей и 3D-моделей. Параметрическое моделирование. Библиотеки фурнитуры. Автоматическая генерация деталировки и карт раскроя. Рендеринг и визуализация.'
+        },
+        {
+          title: 'Конструкции и узлы',
+          duration: '70 мин',
+          content: 'Типы мебельных конструкций: каркасные, корпусные, щитовые. Соединения: шип-паз, конфирмат, шкант, эксцентриковая стяжка, ласточкин хвост. Фурнитура: петли, направляющие, механизмы трансформации. Усиление конструкций. Расчет нагрузок.'
+        },
+        {
+          title: 'От эскиза к рабочему проекту',
+          duration: '50 мин',
+          content: 'Этапы разработки проекта мебели. Эскизное проектирование: поиск формы и пропорций. Технический проект: детализация конструкции. Рабочий проект: полный комплект документации для производства. Согласование с заказчиком и технологами.'
+        }
       ]
     },
     {
@@ -37,6 +81,28 @@ export default function Index() {
         'Металл в мебели',
         'Современные композитные материалы',
         'Технологии производства'
+      ],
+      lectures: [
+        {
+          title: 'Древесина в мебельном производстве',
+          duration: '65 мин',
+          content: 'Строение и свойства древесины. Твердые и мягкие породы: дуб, бук, ясень, сосна, береза. Пороки древесины и их влияние на качество. Сушка и хранение. Массив vs шпон. Защитная обработка: морение, лакирование, масла и воски.'
+        },
+        {
+          title: 'Плитные материалы',
+          duration: '50 мин',
+          content: 'ДСП: классы эмиссии, ламинирование, кромкование. МДФ: свойства, фрезеровка, окраска. Фанера: сорта, применение в мебели. OSB и другие материалы. Выбор материала под задачу. Экономика использования плит. Оптимизация раскроя.'
+        },
+        {
+          title: 'Металл и пластики',
+          duration: '55 мин',
+          content: 'Сталь и алюминий в мебели: профили, листы, трубы. Технологии обработки металла: резка, гибка, сварка, порошковая окраска. Пластики: полипропилен, акрил, поликарбонат. Стекло в мебели. Комбинированные материалы. Современные тренды в материалах.'
+        },
+        {
+          title: 'Технологии производства',
+          duration: '60 мин',
+          content: 'Столярное производство: станки и операции. ЧПУ-обработка: фрезерование, сверление, раскрой. Гибка и формовка. Сборка: ручная и автоматизированная. Отделка поверхностей. Контроль качества. Упаковка и логистика. Производство на заказ vs массовое.'
+        }
       ]
     },
     {
@@ -47,33 +113,101 @@ export default function Index() {
         'Работа с производством',
         'Презентация проекта',
         'Защита итоговой работы'
+      ],
+      lectures: [
+        {
+          title: 'Прототипирование',
+          duration: '55 мин',
+          content: 'Создание макетов и прототипов. Масштабные модели. Полноразмерные макеты для тестирования эргономики. Материалы для прототипов: картон, пенокартон, дерево. 3D-печать в мебельном дизайне. Тестирование и итерации. Доработка по результатам тестов.'
+        },
+        {
+          title: 'Взаимодействие с производством',
+          duration: '50 мин',
+          content: 'Передача проекта в производство. Технологический аудит: возможности и ограничения производства. Корректировка проекта под оборудование. Расчет себестоимости. Запуск пилотной партии. Выявление и устранение проблем. Оптимизация для серии.'
+        },
+        {
+          title: 'Презентация и маркетинг',
+          duration: '45 мин',
+          content: 'Подготовка презентационных материалов. Фотосъемка мебели: основы предметной съемки. 3D-визуализация для каталогов. Создание презентаций для заказчиков. Storytelling в дизайне. Позиционирование продукта. Участие в выставках.'
+        },
+        {
+          title: 'Защита проекта',
+          duration: '30 мин',
+          content: 'Структура итоговой работы. Описание концепции и обоснование решений. Демонстрация технической документации. Презентация макета или фотографий. Ответы на вопросы комиссии. Критерии оценки проектов. Типичные ошибки при защите.'
+        }
       ]
     }
   ];
 
   const materials = [
     {
-      category: 'Лекции',
-      items: [
-        { title: 'Введение в дизайн мебели', duration: '45 мин', format: 'Видео' },
-        { title: 'История мебельного искусства', duration: '60 мин', format: 'Видео' },
-        { title: 'Эргономика в дизайне', duration: '40 мин', format: 'Видео' }
-      ]
-    },
-    {
       category: 'Презентации',
       items: [
-        { title: 'Стили мебели XX века', duration: '—', format: 'PDF' },
-        { title: 'Материалы в современной мебели', duration: '—', format: 'PDF' },
-        { title: 'Конструкции и узлы', duration: '—', format: 'PDF' }
+        { 
+          title: 'Стили мебели XX века', 
+          format: 'PDF',
+          description: 'Иллюстрированный обзор основных стилей: модерн, ар-деко, баухаус, скандинавский дизайн, постмодернизм. Примеры знаковых предметов и их авторов. Влияние стилей на современный дизайн.'
+        },
+        { 
+          title: 'Материалы в современной мебели', 
+          format: 'PDF',
+          description: 'Сравнительные характеристики материалов: прочность, долговечность, экологичность, цена. Таблицы свойств древесины различных пород. Примеры применения композитов. Тренды в материалах 2024-2025.'
+        },
+        { 
+          title: 'Конструкции и узлы', 
+          format: 'PDF',
+          description: 'Детальные схемы основных типов соединений. Фотографии узлов в разобранном виде. Расчет прочности соединений. Рекомендации по выбору фурнитуры. Примеры конструктивных ошибок.'
+        },
+        { 
+          title: 'Эргономика жилых пространств', 
+          format: 'PDF',
+          description: 'Антропометрические таблицы для разных возрастных групп. Зоны комфорта в различных помещениях. Стандарты высоты столов, стульев, кроватей. Эргономика кухни и ванной комнаты.'
+        }
       ]
     },
     {
       category: 'Чертежи и схемы',
       items: [
-        { title: 'Стандартные размеры мебели', duration: '—', format: 'DWG' },
-        { title: 'Узлы и соединения', duration: '—', format: 'DWG' },
-        { title: 'Примеры проектов', duration: '—', format: 'PDF' }
+        { 
+          title: 'Стандартные размеры мебели', 
+          format: 'DWG',
+          description: 'Коллекция чертежей типовой мебели с размерами по ГОСТу. Стулья, столы, шкафы, кровати. Файлы в форматах DWG и PDF. Можно использовать как основу для собственных проектов.'
+        },
+        { 
+          title: 'Библиотека узлов и соединений', 
+          format: 'DWG',
+          description: 'Более 50 типов мебельных соединений с деталировкой. Шиповые, на эксцентриках, на конфирматах. Узлы для каркасной и корпусной мебели. Примеры усиления конструкций.'
+        },
+        { 
+          title: 'Примеры проектов', 
+          format: 'PDF',
+          description: 'Полные комплекты рабочей документации реальных проектов: обеденный стол, стеллаж, кресло, комод. Общие виды, деталировка, спецификации. Можно использовать для изучения правильного оформления.'
+        },
+        { 
+          title: 'Шаблоны фурнитуры', 
+          format: 'DWG',
+          description: 'CAD-блоки популярной мебельной фурнитуры: петли Blum и Hettich, направляющие, подъемные механизмы, ручки. Сэкономит время при проектировании.'
+        }
+      ]
+    },
+    {
+      category: 'Справочные материалы',
+      items: [
+        { 
+          title: 'ГОСТ на мебель', 
+          format: 'PDF',
+          description: 'Сборник актуальных ГОСТов: общие технические условия, методы испытаний, требования безопасности, функциональные размеры. Обязательно к изучению перед проектированием.'
+        },
+        { 
+          title: 'Каталоги фурнитуры', 
+          format: 'PDF',
+          description: 'Каталоги ведущих производителей фурнитуры: Blum, Hettich, Grass, Hafele. Технические характеристики, схемы монтажа, рекомендации по применению.'
+        },
+        { 
+          title: 'Таблицы раскроя', 
+          format: 'XLS',
+          description: 'Excel-шаблоны для расчета оптимального раскроя плитных материалов. Минимизация отходов. Учет текстуры и направления волокон.'
+        }
       ]
     }
   ];
@@ -82,26 +216,111 @@ export default function Index() {
     {
       title: 'Задание 1: Анализ существующей мебели',
       deadline: 'Неделя 2',
-      description: 'Выберите предмет мебели и проведите его детальный анализ: стиль, конструкция, материалы, эргономика.',
-      deliverables: ['Презентация (10-15 слайдов)', 'Эскизы и фотографии', 'Письменный анализ']
+      description: 'Выберите предмет мебели (стул, стол, шкаф или другое изделие) и проведите его детальный профессиональный анализ.',
+      tasks: [
+        'Определите стиль и эпоху создания предмета',
+        'Проанализируйте конструкцию: тип каркаса, соединения, использованная фурнитура',
+        'Изучите материалы: порода древесины, тип обработки, отделка',
+        'Оцените эргономику: соответствие антропометрическим данным, удобство использования',
+        'Выявите сильные стороны и недостатки конструкции',
+        'Сделайте обмерочные эскизы с основными размерами'
+      ],
+      deliverables: [
+        'Презентация (12-15 слайдов) с фотографиями и схемами',
+        'Эскизы и обмерочные чертежи',
+        'Письменный анализ (2-3 страницы текста)',
+        'Выводы и рекомендации по возможному улучшению'
+      ],
+      criteria: [
+        'Полнота анализа — 30%',
+        'Качество эскизов и чертежей — 25%',
+        'Глубина исследования материалов — 20%',
+        'Оценка эргономики — 15%',
+        'Оформление презентации — 10%'
+      ]
     },
     {
       title: 'Задание 2: Эскизный проект',
       deadline: 'Неделя 5',
-      description: 'Разработайте эскизный проект мебели по выбранной теме. Учтите эргономику и функциональность.',
-      deliverables: ['Эскизы (минимум 5)', 'Описание концепции', 'Обоснование решений']
+      description: 'Разработайте эскизный проект предмета мебели по одной из тем: рабочий стул, журнальный столик, или полка. Проект должен учитывать эргономику, функциональность и эстетику.',
+      tasks: [
+        'Сформулируйте концепцию: целевая аудитория, стиль, идея',
+        'Создайте серию эскизов (минимум 8-10 вариантов)',
+        'Выберите оптимальный вариант и доработайте его',
+        'Учтите эргономические требования и антропометрию',
+        'Проработайте пропорции и детали',
+        'Выберите материалы и обоснуйте выбор'
+      ],
+      deliverables: [
+        'Концепция проекта (описание идеи, референсы, mood board)',
+        'Поисковые эскизы (8-10 вариантов)',
+        'Проработанный эскиз финального варианта (вид спереди, сбоку, сверху)',
+        'Описание конструкции и материалов',
+        'Обоснование эргономических решений'
+      ],
+      criteria: [
+        'Оригинальность концепции — 25%',
+        'Разнообразие поисковых эскизов — 20%',
+        'Проработка финального варианта — 25%',
+        'Учет эргономики — 20%',
+        'Обоснование решений — 10%'
+      ]
     },
     {
       title: 'Задание 3: Технический проект',
       deadline: 'Неделя 8',
-      description: 'Подготовьте полный комплект рабочих чертежей разработанного изделия.',
-      deliverables: ['Чертежи общего вида', 'Деталировка', 'Спецификация материалов']
+      description: 'На основе эскизного проекта (Задание 2) подготовьте полный комплект технической документации, необходимой для изготовления изделия на производстве.',
+      tasks: [
+        'Разработайте общий вид изделия (3 проекции)',
+        'Создайте деталировку: чертежи всех деталей с размерами',
+        'Составьте спецификацию материалов и фурнитуры',
+        'Укажите технологию обработки ключевых деталей',
+        'Проработайте узлы соединений',
+        'Оформите документацию по ЕСКД'
+      ],
+      deliverables: [
+        'Чертеж общего вида (формат А3) — 3 проекции',
+        'Деталировка (все детали с размерами)',
+        'Спецификация материалов (ГОСТ 2.108-68)',
+        'Чертежи ключевых узлов и соединений',
+        'Технологические указания',
+        'Все файлы в формате DWG или PDF'
+      ],
+      criteria: [
+        'Правильность выполнения чертежей — 30%',
+        'Полнота деталировки — 25%',
+        'Корректность спецификации — 20%',
+        'Проработка узлов — 15%',
+        'Соответствие ЕСКД — 10%'
+      ]
     },
     {
       title: 'Задание 4: Итоговый проект',
       deadline: 'Неделя 12',
-      description: 'Завершите разработку проекта и подготовьте презентацию для защиты.',
-      deliverables: ['Презентация проекта', 'Полный комплект документации', '3D-визуализация или макет']
+      description: 'Завершите разработку проекта, создайте макет или 3D-визуализацию и подготовьте презентацию для защиты перед комиссией.',
+      tasks: [
+        'Доработайте техническую документацию с учетом замечаний',
+        'Создайте макет (масштабный или полноразмерный) ИЛИ фотореалистичную 3D-визуализацию',
+        'Подготовьте презентацию проекта (структура, визуальное оформление)',
+        'Рассчитайте примерную себестоимость изделия',
+        'Опишите технологию производства',
+        'Подготовьтесь к ответам на вопросы комиссии'
+      ],
+      deliverables: [
+        'Полный комплект технической документации (доработанный)',
+        'Макет ИЛИ 3D-визуализация (не менее 5 ракурсов)',
+        'Презентация (20-25 слайдов)',
+        'Расчет себестоимости',
+        'Описание технологического процесса',
+        'Пояснительная записка (5-7 страниц)'
+      ],
+      criteria: [
+        'Качество проработки проекта — 30%',
+        'Макет/визуализация — 25%',
+        'Презентация и защита — 20%',
+        'Экономическое обоснование — 15%',
+        'Документация — 10%'
+      ]
     }
   ];
 
@@ -213,372 +432,311 @@ export default function Index() {
               <CardContent className="space-y-4 text-muted-foreground">
                 <p>
                   Курс «Дизайн мебели» предназначен для студентов, желающих освоить профессию дизайнера мебели. 
-                  В программе курса — изучение истории мебельного искусства, основ эргономики, материаловедения, 
-                  конструирования и технологий производства.
+                  В программе курса теоретические основы дизайна, изучение материалов и технологий, 
+                  освоение CAD-программ и развитие практических навыков проектирования.
                 </p>
                 <p>
-                  Особое внимание уделяется практической работе: студенты разрабатывают собственные проекты 
-                  от эскиза до технической документации, учатся работать с CAD-системами и презентовать свои идеи.
+                  В течение 12 недель вы пройдете путь от изучения истории мебели до разработки 
+                  и защиты собственного проекта. Программа включает видеолекции, практические задания, 
+                  работу с чертежами и создание прототипов.
+                </p>
+                <p>
+                  По завершении курса вы получите комплексные знания о проектировании мебели, 
+                  научитесь работать с технической документацией, освоите современные инструменты 
+                  и сможете создавать профессиональные проекты для производства.
                 </p>
               </CardContent>
             </Card>
 
-            <section>
-              <h3 className="text-3xl font-bold text-primary mb-6">Преподаватель курса</h3>
-              <Card>
-                <CardContent className="pt-6">
-                  <div className="flex gap-6 items-start">
-                    <div className="w-24 h-24 rounded-full bg-muted flex items-center justify-center flex-shrink-0">
-                      <Icon name="User" size={48} className="text-muted-foreground" />
-                    </div>
-                    <div className="space-y-2">
-                      <h4 className="text-xl font-semibold">Иванов Алексей Петрович</h4>
-                      <p className="text-muted-foreground">
-                        Кандидат искусствоведения, доцент кафедры дизайна
-                      </p>
-                      <p className="text-sm text-muted-foreground">
-                        Опыт преподавания: 15 лет. Автор более 30 реализованных проектов в области мебельного дизайна. 
-                        Победитель международных конкурсов дизайна.
-                      </p>
-                      <div className="flex gap-4 pt-2">
-                        <Button variant="outline" size="sm">
-                          <Icon name="Mail" size={16} className="mr-2" />
-                          a.ivanov@university.ru
-                        </Button>
-                        <Button variant="outline" size="sm">
-                          <Icon name="Phone" size={16} className="mr-2" />
-                          +7 (495) 123-45-67
-                        </Button>
-                      </div>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            </section>
+            <Card>
+              <CardHeader>
+                <Icon name="User" size={24} className="text-accent mb-2" />
+                <CardTitle>Преподаватель курса</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-3">
+                <p className="text-muted-foreground">
+                  <strong>Марина Владимировна Соколова</strong> — дизайнер мебели с 15-летним опытом работы. 
+                  Выпускница МГХПА им. С.Г. Строганова. Работала с ведущими мебельными фабриками России. 
+                  Автор более 200 реализованных проектов.
+                </p>
+                <p className="text-muted-foreground">
+                  Специализация: проектирование корпусной и мягкой мебели, мебель на заказ, 
+                  авторские коллекции. Преподает с 2015 года.
+                </p>
+              </CardContent>
+            </Card>
           </div>
         )}
 
         {activeSection === 'program' && (
           <div className="space-y-8 animate-fade-in">
-            <div className="text-center space-y-4 mb-12">
+            <div className="text-center space-y-4">
               <h2 className="text-4xl font-bold text-primary">Программа курса</h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Курс рассчитан на 12 недель обучения и включает 4 основных модуля. 
-                Каждый модуль завершается практическим заданием.
+                Курс состоит из 4 модулей, каждый из которых включает видеолекции, 
+                презентации и практические задания
               </p>
-            </div>
-
-            <div className="grid gap-6">
-              {courseModules.map((module, index) => (
-                <Card key={index} className="hover-scale">
-                  <CardHeader>
-                    <div className="flex items-start justify-between">
-                      <div>
-                        <CardTitle className="text-2xl mb-2">{module.title}</CardTitle>
-                        <CardDescription className="flex items-center gap-2">
-                          <Icon name="Calendar" size={16} />
-                          {module.weeks}
-                        </CardDescription>
-                      </div>
-                      <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center">
-                        <span className="text-xl font-bold text-accent">{index + 1}</span>
-                      </div>
-                    </div>
-                  </CardHeader>
-                  <CardContent>
-                    <ul className="space-y-2">
-                      {module.topics.map((topic, topicIndex) => (
-                        <li key={topicIndex} className="flex items-center gap-3">
-                          <Icon name="Check" size={16} className="text-accent flex-shrink-0" />
-                          <span>{topic}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-
-            <Card className="bg-accent/5 border-accent/20">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Icon name="Target" size={24} className="text-accent" />
-                  Результаты обучения
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-3 text-muted-foreground">
-                  <li className="flex items-start gap-3">
-                    <Icon name="CheckCircle" size={20} className="text-accent mt-0.5 flex-shrink-0" />
-                    <span>Владение теоретическими основами дизайна мебели и понимание исторического контекста</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Icon name="CheckCircle" size={20} className="text-accent mt-0.5 flex-shrink-0" />
-                    <span>Умение разрабатывать эргономичные и функциональные мебельные конструкции</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Icon name="CheckCircle" size={20} className="text-accent mt-0.5 flex-shrink-0" />
-                    <span>Навыки работы с CAD-программами и подготовки технической документации</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Icon name="CheckCircle" size={20} className="text-accent mt-0.5 flex-shrink-0" />
-                    <span>Способность презентовать и защищать собственные дизайн-проекты</span>
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
-        )}
-
-        {activeSection === 'materials' && (
-          <div className="space-y-8 animate-fade-in">
-            <div className="text-center space-y-4 mb-12">
-              <h2 className="text-4xl font-bold text-primary">Учебные материалы</h2>
-              <p className="text-muted-foreground max-w-2xl mx-auto">
-                Все необходимые материалы для успешного освоения курса: видеолекции, 
-                презентации, чертежи и справочная литература.
-              </p>
-            </div>
-
-            <Tabs defaultValue="lectures" className="w-full">
-              <TabsList className="grid w-full grid-cols-3 mb-8">
-                <TabsTrigger value="lectures">Лекции</TabsTrigger>
-                <TabsTrigger value="presentations">Презентации</TabsTrigger>
-                <TabsTrigger value="drawings">Чертежи</TabsTrigger>
-              </TabsList>
-
-              <TabsContent value="lectures" className="space-y-4">
-                {materials[0].items.map((item, index) => (
-                  <Card key={index} className="hover-scale">
-                    <CardContent className="pt-6">
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-4">
-                          <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center">
-                            <Icon name="Video" size={24} className="text-accent" />
-                          </div>
-                          <div>
-                            <h4 className="font-semibold text-lg">{item.title}</h4>
-                            <p className="text-sm text-muted-foreground">{item.duration}</p>
-                          </div>
-                        </div>
-                        <Button variant="outline">
-                          <Icon name="Play" size={16} className="mr-2" />
-                          Смотреть
-                        </Button>
-                      </div>
-                    </CardContent>
-                  </Card>
-                ))}
-              </TabsContent>
-
-              <TabsContent value="presentations" className="space-y-4">
-                {materials[1].items.map((item, index) => (
-                  <Card key={index} className="hover-scale">
-                    <CardContent className="pt-6">
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-4">
-                          <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center">
-                            <Icon name="FileText" size={24} className="text-accent" />
-                          </div>
-                          <div>
-                            <h4 className="font-semibold text-lg">{item.title}</h4>
-                            <p className="text-sm text-muted-foreground">Формат: {item.format}</p>
-                          </div>
-                        </div>
-                        <Button variant="outline">
-                          <Icon name="Download" size={16} className="mr-2" />
-                          Скачать
-                        </Button>
-                      </div>
-                    </CardContent>
-                  </Card>
-                ))}
-              </TabsContent>
-
-              <TabsContent value="drawings" className="space-y-4">
-                {materials[2].items.map((item, index) => (
-                  <Card key={index} className="hover-scale">
-                    <CardContent className="pt-6">
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-4">
-                          <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center">
-                            <Icon name="Ruler" size={24} className="text-accent" />
-                          </div>
-                          <div>
-                            <h4 className="font-semibold text-lg">{item.title}</h4>
-                            <p className="text-sm text-muted-foreground">Формат: {item.format}</p>
-                          </div>
-                        </div>
-                        <Button variant="outline">
-                          <Icon name="Download" size={16} className="mr-2" />
-                          Скачать
-                        </Button>
-                      </div>
-                    </CardContent>
-                  </Card>
-                ))}
-              </TabsContent>
-            </Tabs>
-
-            <div className="grid md:grid-cols-2 gap-6 mt-12">
-              <Card>
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <Icon name="BookOpen" size={24} />
-                    Рекомендованная литература
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-3 text-sm">
-                    <li>• Бартенев Ю.В. «Форма и материал»</li>
-                    <li>• Соболев Н.Н. «Стили в мебели»</li>
-                    <li>• Грашин А.А. «Дизайн и основы композиции»</li>
-                    <li>• Михайлов С.М. «Основы дизайна»</li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <Icon name="Globe" size={24} />
-                    Полезные ресурсы
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-3 text-sm">
-                    <li>• Базы данных мебельных стандартов</li>
-                    <li>• Библиотеки 3D-моделей мебели</li>
-                    <li>• Каталоги современных материалов</li>
-                    <li>• Архивы международных выставок</li>
-                  </ul>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-        )}
-
-        {activeSection === 'assignments' && (
-          <div className="space-y-8 animate-fade-in">
-            <div className="text-center space-y-4 mb-12">
-              <h2 className="text-4xl font-bold text-primary">Практические задания</h2>
-              <p className="text-muted-foreground max-w-2xl mx-auto">
-                Четыре ключевых практических задания для закрепления теоретических знаний 
-                и развития профессиональных навыков дизайнера мебели.
-              </p>
-            </div>
-
-            <div className="mb-8">
-              <img 
-                src="https://cdn.poehali.dev/projects/9c9a170f-50fd-4d22-a42a-284dad9d72e9/files/594f6394-dc87-4c0e-83d7-dd3af17c9a8b.jpg" 
-                alt="Примеры мебели" 
-                className="rounded-lg shadow-lg w-full h-[400px] object-cover"
-              />
             </div>
 
             <Accordion type="single" collapsible className="space-y-4">
-              {assignments.map((assignment, index) => (
-                <AccordionItem key={index} value={`item-${index}`} className="border rounded-lg px-6">
+              {courseModules.map((module, idx) => (
+                <AccordionItem key={idx} value={`module-${idx}`} className="border rounded-lg px-6">
                   <AccordionTrigger className="hover:no-underline">
-                    <div className="flex items-center gap-4 text-left">
-                      <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
-                        <span className="font-bold text-accent">{index + 1}</span>
+                    <div className="flex items-start gap-4 text-left">
+                      <div className="bg-accent text-white rounded-full w-10 h-10 flex items-center justify-center shrink-0 font-bold">
+                        {idx + 1}
                       </div>
                       <div>
-                        <h3 className="text-lg font-semibold">{assignment.title}</h3>
-                        <p className="text-sm text-muted-foreground flex items-center gap-2 mt-1">
-                          <Icon name="Clock" size={14} />
-                          Срок сдачи: {assignment.deadline}
-                        </p>
+                        <h3 className="font-semibold text-lg">{module.title}</h3>
+                        <p className="text-sm text-muted-foreground">{module.weeks}</p>
                       </div>
                     </div>
                   </AccordionTrigger>
-                  <AccordionContent className="pt-4 pb-6">
-                    <div className="space-y-6">
+                  <AccordionContent>
+                    <div className="pl-14 space-y-6 pt-4">
                       <div>
-                        <h4 className="font-semibold mb-2">Описание задания:</h4>
-                        <p className="text-muted-foreground">{assignment.description}</p>
-                      </div>
-                      <div>
-                        <h4 className="font-semibold mb-2">Требуемые материалы для сдачи:</h4>
+                        <h4 className="font-semibold mb-3 text-accent">Темы модуля:</h4>
                         <ul className="space-y-2">
-                          {assignment.deliverables.map((deliverable, i) => (
-                            <li key={i} className="flex items-center gap-2 text-muted-foreground">
-                              <Icon name="CheckSquare" size={16} className="text-accent" />
-                              {deliverable}
+                          {module.topics.map((topic, topicIdx) => (
+                            <li key={topicIdx} className="flex items-start gap-2">
+                              <Icon name="Check" size={16} className="text-accent mt-1 shrink-0" />
+                              <span className="text-muted-foreground">{topic}</span>
                             </li>
                           ))}
                         </ul>
                       </div>
-                      <div className="flex gap-3 pt-4">
-                        <Button variant="default">
-                          <Icon name="Upload" size={16} className="mr-2" />
-                          Загрузить работу
-                        </Button>
-                        <Button variant="outline">
-                          <Icon name="FileDown" size={16} className="mr-2" />
-                          Скачать задание
-                        </Button>
+
+                      <div>
+                        <h4 className="font-semibold mb-3 text-accent">Лекции:</h4>
+                        <div className="space-y-3">
+                          {module.lectures.map((lecture, lectureIdx) => (
+                            <Card key={lectureIdx} className="bg-muted/30">
+                              <CardHeader className="pb-3">
+                                <div className="flex items-start justify-between gap-4">
+                                  <CardTitle className="text-base">{lecture.title}</CardTitle>
+                                  <span className="text-sm text-muted-foreground shrink-0 flex items-center gap-1">
+                                    <Icon name="Clock" size={14} />
+                                    {lecture.duration}
+                                  </span>
+                                </div>
+                              </CardHeader>
+                              <CardContent>
+                                <p className="text-sm text-muted-foreground leading-relaxed">
+                                  {lecture.content}
+                                </p>
+                              </CardContent>
+                            </Card>
+                          ))}
+                        </div>
                       </div>
                     </div>
                   </AccordionContent>
                 </AccordionItem>
               ))}
             </Accordion>
+          </div>
+        )}
 
-            <Card className="bg-muted/30 mt-12">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Icon name="Info" size={24} />
-                  Критерии оценивания
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-3">
-                <div className="flex items-start gap-3">
-                  <Icon name="Star" size={20} className="text-accent mt-0.5" />
-                  <div>
-                    <p className="font-semibold">Соответствие требованиям (30%)</p>
-                    <p className="text-sm text-muted-foreground">Выполнение всех пунктов технического задания</p>
+        {activeSection === 'materials' && (
+          <div className="space-y-8 animate-fade-in">
+            <div className="text-center space-y-4">
+              <h2 className="text-4xl font-bold text-primary">Учебные материалы</h2>
+              <p className="text-muted-foreground max-w-2xl mx-auto">
+                Коллекция презентаций, чертежей, справочников и других материалов для изучения
+              </p>
+            </div>
+
+            <Tabs defaultValue="presentations" className="space-y-6">
+              <TabsList className="grid w-full grid-cols-3 max-w-2xl mx-auto">
+                <TabsTrigger value="presentations">Презентации</TabsTrigger>
+                <TabsTrigger value="drawings">Чертежи</TabsTrigger>
+                <TabsTrigger value="references">Справочники</TabsTrigger>
+              </TabsList>
+
+              <TabsContent value="presentations" className="space-y-4">
+                {materials.filter(m => m.category === 'Презентации')[0]?.items.map((item, idx) => (
+                  <Card key={idx} className="hover-scale">
+                    <CardHeader>
+                      <div className="flex items-start justify-between gap-4">
+                        <div className="space-y-2 flex-1">
+                          <div className="flex items-center gap-3">
+                            <Icon name="FileText" size={24} className="text-accent" />
+                            <CardTitle>{item.title}</CardTitle>
+                          </div>
+                          <CardDescription className="text-sm leading-relaxed">
+                            {item.description}
+                          </CardDescription>
+                        </div>
+                        <div className="flex flex-col items-end gap-2">
+                          <span className="text-xs bg-accent/10 text-accent px-3 py-1 rounded-full font-medium">
+                            {item.format}
+                          </span>
+                          <Button size="sm" variant="outline">
+                            <Icon name="Download" size={14} className="mr-2" />
+                            Скачать
+                          </Button>
+                        </div>
+                      </div>
+                    </CardHeader>
+                  </Card>
+                ))}
+              </TabsContent>
+
+              <TabsContent value="drawings" className="space-y-4">
+                {materials.filter(m => m.category === 'Чертежи и схемы')[0]?.items.map((item, idx) => (
+                  <Card key={idx} className="hover-scale">
+                    <CardHeader>
+                      <div className="flex items-start justify-between gap-4">
+                        <div className="space-y-2 flex-1">
+                          <div className="flex items-center gap-3">
+                            <Icon name="Pencil" size={24} className="text-accent" />
+                            <CardTitle>{item.title}</CardTitle>
+                          </div>
+                          <CardDescription className="text-sm leading-relaxed">
+                            {item.description}
+                          </CardDescription>
+                        </div>
+                        <div className="flex flex-col items-end gap-2">
+                          <span className="text-xs bg-accent/10 text-accent px-3 py-1 rounded-full font-medium">
+                            {item.format}
+                          </span>
+                          <Button size="sm" variant="outline">
+                            <Icon name="Download" size={14} className="mr-2" />
+                            Скачать
+                          </Button>
+                        </div>
+                      </div>
+                    </CardHeader>
+                  </Card>
+                ))}
+              </TabsContent>
+
+              <TabsContent value="references" className="space-y-4">
+                {materials.filter(m => m.category === 'Справочные материалы')[0]?.items.map((item, idx) => (
+                  <Card key={idx} className="hover-scale">
+                    <CardHeader>
+                      <div className="flex items-start justify-between gap-4">
+                        <div className="space-y-2 flex-1">
+                          <div className="flex items-center gap-3">
+                            <Icon name="BookOpen" size={24} className="text-accent" />
+                            <CardTitle>{item.title}</CardTitle>
+                          </div>
+                          <CardDescription className="text-sm leading-relaxed">
+                            {item.description}
+                          </CardDescription>
+                        </div>
+                        <div className="flex flex-col items-end gap-2">
+                          <span className="text-xs bg-accent/10 text-accent px-3 py-1 rounded-full font-medium">
+                            {item.format}
+                          </span>
+                          <Button size="sm" variant="outline">
+                            <Icon name="Download" size={14} className="mr-2" />
+                            Скачать
+                          </Button>
+                        </div>
+                      </div>
+                    </CardHeader>
+                  </Card>
+                ))}
+              </TabsContent>
+            </Tabs>
+          </div>
+        )}
+
+        {activeSection === 'assignments' && (
+          <div className="space-y-8 animate-fade-in">
+            <div className="text-center space-y-4">
+              <h2 className="text-4xl font-bold text-primary">Практические задания</h2>
+              <p className="text-muted-foreground max-w-2xl mx-auto">
+                Четыре масштабных практических задания для закрепления теории и развития навыков
+              </p>
+            </div>
+
+            <div className="space-y-6">
+              {assignments.map((assignment, idx) => (
+                <Card key={idx} className="overflow-hidden">
+                  <div className="bg-accent/5 border-b px-6 py-4">
+                    <div className="flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4">
+                        <div className="bg-accent text-white rounded-full w-10 h-10 flex items-center justify-center shrink-0 font-bold">
+                          {idx + 1}
+                        </div>
+                        <div>
+                          <h3 className="font-semibold text-xl mb-1">{assignment.title}</h3>
+                          <p className="text-sm text-muted-foreground flex items-center gap-2">
+                            <Icon name="Calendar" size={14} />
+                            Срок сдачи: {assignment.deadline}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <Icon name="Star" size={20} className="text-accent mt-0.5" />
-                  <div>
-                    <p className="font-semibold">Креативность решения (25%)</p>
-                    <p className="text-sm text-muted-foreground">Оригинальность и новизна предложенных идей</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <Icon name="Star" size={20} className="text-accent mt-0.5" />
-                  <div>
-                    <p className="font-semibold">Техническая проработка (25%)</p>
-                    <p className="text-sm text-muted-foreground">Качество чертежей и документации</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <Icon name="Star" size={20} className="text-accent mt-0.5" />
-                  <div>
-                    <p className="font-semibold">Презентация (20%)</p>
-                    <p className="text-sm text-muted-foreground">Качество оформления и защиты проекта</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+
+                  <CardContent className="pt-6 space-y-6">
+                    <div>
+                      <h4 className="font-semibold mb-3 text-accent flex items-center gap-2">
+                        <Icon name="Target" size={18} />
+                        Описание задания
+                      </h4>
+                      <p className="text-muted-foreground">{assignment.description}</p>
+                    </div>
+
+                    <div>
+                      <h4 className="font-semibold mb-3 text-accent flex items-center gap-2">
+                        <Icon name="ListChecks" size={18} />
+                        Что нужно сделать
+                      </h4>
+                      <ul className="space-y-2">
+                        {assignment.tasks.map((task, taskIdx) => (
+                          <li key={taskIdx} className="flex items-start gap-2">
+                            <Icon name="ChevronRight" size={16} className="text-accent mt-1 shrink-0" />
+                            <span className="text-muted-foreground">{task}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    <div>
+                      <h4 className="font-semibold mb-3 text-accent flex items-center gap-2">
+                        <Icon name="PackageCheck" size={18} />
+                        Что нужно сдать
+                      </h4>
+                      <ul className="space-y-2">
+                        {assignment.deliverables.map((item, itemIdx) => (
+                          <li key={itemIdx} className="flex items-start gap-2">
+                            <Icon name="FileCheck" size={16} className="text-accent mt-1 shrink-0" />
+                            <span className="text-muted-foreground">{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    <div className="bg-muted/30 rounded-lg p-4">
+                      <h4 className="font-semibold mb-3 text-accent flex items-center gap-2">
+                        <Icon name="Scale" size={18} />
+                        Критерии оценки
+                      </h4>
+                      <ul className="space-y-2">
+                        {assignment.criteria.map((criterion, critIdx) => (
+                          <li key={critIdx} className="flex items-start gap-2">
+                            <Icon name="Star" size={16} className="text-accent mt-1 shrink-0" />
+                            <span className="text-sm text-muted-foreground">{criterion}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
           </div>
         )}
       </main>
 
-      <footer className="border-t mt-20">
-        <div className="container mx-auto px-4 py-8">
-          <div className="flex justify-between items-center">
-            <div>
-              <p className="font-semibold">Кафедра дизайна</p>
-              <p className="text-sm text-muted-foreground">Университет искусств и дизайна</p>
-            </div>
-            <div className="text-sm text-muted-foreground">
-              © 2024 Все права защищены
-            </div>
-          </div>
+      <footer className="border-t mt-16 py-8 bg-muted/20">
+        <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
+          <p>Электронное образовательное пособие по дизайну мебели</p>
+          <p className="mt-2">© 2024 Все материалы защищены авторским правом</p>
         </div>
       </footer>
     </div>
